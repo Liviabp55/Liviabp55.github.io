@@ -1,0 +1,94 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title> Cadastro </title>
+</head>
+
+<body>
+<header>
+<h1> Cadastro </h1>
+</header>
+<div id="menu" style="height: 71%">
+		<h2 style="text-align: center;"> Links para os jogos </h2>
+		<ul>
+	<table  border=1 style="border-collapse: collapse" cellpadding="2" >
+	  <tr><td><a href="wpp2.html" > Just Dance 2020 </a></td></tr>
+	  <tr><td><a href="wpp3.html" > Super Mario World </a></td></tr>
+	  <tr><td><a href="wpp4.html" > Naruto: Ultimate Ninja Storm </a></td></tr>
+	</table>
+	</ul>
+</div>
+<section style="height: 71%">
+
+	<form method="post" action="pagina.html">
+		<div style="float: left;">
+		<br><label for="nome">Nome:</label>
+		<input  id="nome" name="nome" type="text"><br><br>
+		<label for="sobrenome">Sobrenome: </label>
+		<input type="text" name="sobrenome" id="sobrenome"><br><br>
+		<label for="data">Data Nascimento: </label>
+		<input id="data" name="data" type="date" ><br><br>
+		<label>Sexo: </label>
+		<input type="radio" name="sexo" value="masculino"> Masculino
+		<input type="radio" name="sexo" value="feminino"> Feminino
+		<br><br>
+		<label for="email">E-mail: </label>
+		<input id="email" name="email" type="email" placeholder="seuemail@gmail.com" >
+		<br><br>		
+		<label for="telefone">Telefone: </label>
+		<input id="telefone" name="telefone" type="tel" placeholder="(xx)xxxxx-xxxx">
+		</div>
+
+		<div style="float: right;"><br>
+		<label for="endereco">Endereço:</label>
+		<input  id="endereco" name="endereco" type="text"><br><br>
+		<label for="numero">Número:</label>
+		<input type="number" name="numero" id="numero" ><br><br>
+		<label for="estado">Estado:</label>
+		<select id="estado" name="estado">
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+    <option value="EX">Estrangeiro</option>
+</select><br><br>
+<label for="login">Login:</label>
+		<input type="text" name="login" id="login"><br><br>
+		<label for="senha">Senha:</label>
+		<input type="password" name="senha" id="senha"><br><br>
+		<input type="submit" name="enviar" value="Enviar">
+
+		</div>
+			</form>
+
+</section>
+<footer> 
+	<p id="espaco2"><a href="cadastre.html" > &gt&gtCadastre-se     </a></p>
+	<p id="espaco2"><a href="faleconosco.html" > &gt&gtFale Conosco    </a></p>
+	<p id="espaco2"><a href="facebok.html" > &gt&gtFacebook </a></p>
+</footer>
+</body>
+</html>
