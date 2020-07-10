@@ -1,7 +1,60 @@
+<<<<<<< HEAD
 * {
 	box-sizing: border-box;
 }
 
+=======
+<style> 
+.navbar{
+    background-color: red;
+    color:red;
+    font-size: 1.2em;
+}
+.navbar-nav .active a, .navbar-nav a:focus, .navbar-nav a:hover{
+color: red;
+background-color:#f26363;
+}
+.navbar-nav a{
+color: red;
+}
+.bg-color{
+background-color: #f67575;
+}
+.container{
+margin: auto;
+background-color:#d4f8e8; 
+}
+.icone{
+max-width: 200px;
+margin:auto;
+}
+footer{
+background-color: #6c757d;
+color: #1579e4;
+padding: 3%;
+}
+.container1{
+text-align: center;
+background-color:#d4f8e8; 
+margin-bottom: 3%;
+margin-top: 3%;
+
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+font-size: 1.2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+>>>>>>> BCH_ENTREGA_04_PPW1
 html, body{
 	height: 100%;
 	width: 100%;
@@ -25,6 +78,7 @@ header, section, footer {
 }
 
 section {
+<<<<<<< HEAD
     position:relative; top:20;
     padding: 10px;
     height: auto;
@@ -33,6 +87,14 @@ section {
     float: left;
     float: right;
     margin-bottom: 40px;
+=======
+    padding: 10px;
+    height: auto;
+    background-color: #d4f8e8;
+    float: left;
+    float: right;
+    margin-bottom: 10px;
+>>>>>>> BCH_ENTREGA_04_PPW1
 
 }
 
@@ -41,6 +103,7 @@ section {
 	margin-top: 20px;
     width:20%;
     background-color: #1eb2a6;
+<<<<<<< HEAD
 }
 
 table{
@@ -59,6 +122,21 @@ label{
 	width: 100px;
 	margin-left: 20px;
 	text-align: left;
+=======
+    text-align: center;
+}
+
+
+footer {
+    text-align:center;
+    clear:both;
+    width: auto;
+    background-color: #ffa34d;
+}
+label{
+	text-align: left;
+    width: 100px;
+>>>>>>> BCH_ENTREGA_04_PPW1
 	display: inline-block;
 
 }
@@ -74,3 +152,35 @@ label{
 	float: left;
 	margin-left: 3%;
 }
+<<<<<<< HEAD
+=======
+ #rightbox { 
+    float:right;
+    width:35%; 
+                
+} 
+ #leftbox { 
+    float:left;                  
+} 
+
+}
+#site {
+    color: red;
+    font-weight: bold;
+    font-decoration: underline;
+    font-size: 20;
+}
+
+}#bolha {
+    background-color: red;
+}
+
+#link {
+    color: black;   
+}
+
+#cinz{
+text-align:center;
+
+}
+>>>>>>> BCH_ENTREGA_04_PPW1
