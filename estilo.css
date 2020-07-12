@@ -1,11 +1,8 @@
 <style> 
 .navbar{
-    background-color: red;
-    color:red;
     font-size: 1.2em;
 }
 .navbar-nav .active a, .navbar-nav a:focus, .navbar-nav a:hover{
-color: red;
 background-color:#f26363;
 }
 .navbar-nav a{
@@ -45,10 +42,10 @@ font-size: 1.2em;
 
 
 html, body{
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -60,7 +57,9 @@ header {
     overflow-x: hidden;
 
 }
-
+footer{
+background-color: #6c757d;
+}
 
 header, section, footer {
     display:block;
@@ -77,57 +76,37 @@ section {
 }
 
 #menu {
-	position:absolute;
-	margin-top: 20px;
+    position:absolute;
+    margin-top: 20px;
     width:20%;
     background-color: #1eb2a6;
     text-align: center;
 }
 
 
-footer {
-    text-align:center;
-    width: auto;
-    background-color: #ffa34d;
-}
 label{
-	text-align: left;
+    text-align: left;
     width: 100px;
-	display: inline-block;
+    display: inline-block;
 
 }
 
 #espaco{
-	width: 50;
-	height: 50;
-	float: left;
-	margin-left: 200px;
+    width: 50;
+    height: 50;
+    float: left;
+    margin-left: 200px;
 }
 
 #espaco2{
-	float: left;
-	margin-left: 3%;
+    float: left;
+    margin-left: 3%;
 }
  #rightbox { 
     float:right;
     width:35%; 
                 
 } 
- #leftbox { 
-    float:left;                  
-} 
-
-}
-#site {
-    color: red;
-    font-weight: bold;
-    font-decoration: underline;
-    font-size: 20;
-}
-
-}#bolha {
-    background-color: red;
-}
 
 #link {
     color: black;   
