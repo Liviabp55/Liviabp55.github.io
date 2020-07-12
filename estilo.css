@@ -22,11 +22,7 @@ background-color:#d4f8e8;
 max-width: 200px;
 margin:auto;
 }
-footer{
-background-color: #6c757d;
-color: #1579e4;
-padding: 3%;
-}
+
 .container1{
 text-align: center;
 background-color:#d4f8e8; 
@@ -91,9 +87,8 @@ section {
 
 footer {
     text-align:center;
-    clear:both;
     width: auto;
-    background-color: #ffa34d;
+    background-color: #6c757d;
 }
 label{
 	text-align: left;
