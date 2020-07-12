@@ -97,9 +97,23 @@
 <div class="col-sm-4">
 	<h3><a id="link" href="#">Contato </h3>
 <br>
-	<h5> 4002-8922 </5>
+	<h5> 0800-0000 </5>
 </div>
 </div>
 </footer>
+
+<script type="text/javascript">
+function validaEmail()
+{
+  var obj = eval("document.forms[0].Email");
+  var txt = obj.value;
+  if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') < 7)))
+  {
+    alert('Email inválido');
+    obj.focus();
+  }
+}
+</script>
+
 </body>
 </html>
