@@ -5,9 +5,7 @@
 .navbar-nav .active a, .navbar-nav a:focus, .navbar-nav a:hover{
 background-color:#f26363;
 }
-.navbar-nav a{
-color: red;
-}
+
 .bg-color{
 background-color: #f67575;
 }
@@ -58,7 +56,7 @@ header {
 
 }
 footer{
-background-color: #6c757d;
+background-color: #ffa34d;
 }
 
 header, section, footer {
@@ -110,9 +108,4 @@ label{
 
 #link {
     color: black;   
-}
-
-#cinz{
-text-align:center;
-
 }
